@@ -10,3 +10,7 @@ The Little Lemon app is a React Native Expo application for food ordering.
 
 - Logout: Redirects users to the login page and clears stored profile data.
   Menu Management: Menu items are populated, queried, and filtered using SQLite.
+
+  # Wireframe
+
+  ![Wireframe](https://raw.githubusercontent.com/quantodaniel/little-lemon/refs/heads/main/assets/wireframe.png)
