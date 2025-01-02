@@ -1,50 +1,12 @@
-# Welcome to your Expo app 👋
+# Little Lemon App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The Little Lemon app is a React Native Expo application for food ordering.
 
-## Get started
+- Registration: Users can sign up and are redirected to the home screen after completing the onboarding process.
 
-1. Install dependencies
+- Home Screen: Displays a header, a banner with a search bar, and a filterable list of menu items.
 
-   ```bash
-   npm install
-   ```
+- Profile Screen: Users can customize their name, email, profile photo, and preferences. Includes options to enable notifications for order updates, password changes, special offers, and newsletters. Preferences are saved using AsyncStorage.
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Logout: Redirects users to the login page and clears stored profile data.
+  Menu Management: Menu items are populated, queried, and filtered using SQLite.
